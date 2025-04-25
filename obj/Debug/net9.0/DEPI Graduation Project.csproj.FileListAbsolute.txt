@@ -1,0 +1,98 @@
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\bin\Debug\net9.0\appsettings.json
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\bin\Debug\net9.0\DEPI Graduation Project.staticwebassets.runtime.json
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\bin\Debug\net9.0\DEPI Graduation Project.staticwebassets.endpoints.json
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\bin\Debug\net9.0\DEPI Graduation Project.exe
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\bin\Debug\net9.0\DEPI Graduation Project.deps.json
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\bin\Debug\net9.0\DEPI Graduation Project.runtimeconfig.json
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\bin\Debug\net9.0\DEPI Graduation Project.dll
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\bin\Debug\net9.0\DEPI Graduation Project.pdb
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\DEPI Graduation Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\DEPI Graduation Project.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\DEPI Graduation Project.AssemblyInfo.cs
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\DEPI Graduation Project.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\DEPI Graduation Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\DEPI Graduation Project.RazorAssemblyInfo.cache
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\DEPI Graduation Project.RazorAssemblyInfo.cs
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\scopedcss\bundle\DEPI Graduation Project.styles.css
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\scopedcss\projectbundle\DEPI Graduation Project.bundle.scp.css
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\jned8cspzn-b9sayid5wm.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\buxt7lyirj-61n19gt1b8.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\2wux26rn3g-xtxxf3hu2r.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\9nekil5i55-bqjiyaj88i.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\1q7wcu5c76-c2jlpeoesf.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\dmkhb7fjxh-erw9l3u2r3.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\s45fr955xd-aexeepp0ev.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\jy45p18faq-d7shbmvgxk.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\st182uawdz-ausgxo2sd3.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\q0p46ajkxc-k8d9w2qqmf.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\j44p600f5d-cosvhxvwiu.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\4ad03hny61-ub07r2b239.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\2cjii0w5s0-fvhpjtyr6v.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\l8vuu4bf0t-b7pk76d08c.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\tsufn5ha0m-fsbi9cje9m.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\d77kwjvcl4-rzd6atqjts.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\5md7y3fmuc-ee0r1s7dh0.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\2mxiiz3b3q-dxx9fxp4il.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\tv7568tmx3-jd9uben2k1.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\h2ao4nbgri-khv3u5hwcm.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\6f6hsvxv8c-r4e9w2rdcm.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\9bt7lwgtgo-lcd1t2u6c8.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\otqsjibnb6-c2oey78nd0.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\yajlt42hjq-tdbxkamptv.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\jy9l0sgjjt-j5mq2jizvt.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\fdknagoq2n-06098lyss8.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\382y143ej0-nvvlpmu67g.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\tzu71tyiz2-s35ty4nyc5.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\qrc6xdzokl-pj5nd1wqec.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\92bddb6ais-46ein0sx1k.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\41lkmfjy0x-v0zj4ognzu.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\4nifs7yom4-37tfw0ft22.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\26688p68wd-hrwsygsryq.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\t85qfkvx5x-pk9g2wxc8p.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\oo6056feot-ft3s53vfgj.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\0zep21xmpy-6cfz1n2cew.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\zrchuoanzp-6pdc2jztkx.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\nxgeczukdi-493y06b0oq.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\8iz5mpsyps-iovd86k7lj.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\v7vkmx1s8w-vr1egmr9el.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\13fp7xlf7f-kbrnm935zg.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\9rv4of6itq-jj8uyg4cgr.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\lttycrlmrc-y7v9cxd14o.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\bp4t6ibliv-notf2xhcfb.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\hk19iavma0-h1s4sie4z3.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\d4r7mcjb6x-63fj8s7r0e.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\fe8272gzbv-0j3bgjxly4.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\m1sruu9z16-47otxtyo56.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\10e1g1dp4n-4v8eqarkd7.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\j6dxack7qj-356vix0kms.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\wrirdlwrhx-83jwlth58m.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\7zyl9veypn-mrlpezrjn3.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\s8l6zncxtc-lzl9nlhx6b.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\9hmkhfoqaw-ag7o75518u.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\ud8af39byf-x0q3zqp4vz.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\qx4oyykm2w-0i3buxo5is.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\ocjdbzgnsx-o1o13a6vjx.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\kneakhutu0-ttgo8qnofa.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\j6byngabw3-2z0ns9nrw6.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\qfkcwjkn2z-muycvpuwrr.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\i9mmejt0ja-87fc7y1x7t.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\m8to9covgx-mlv21k5csn.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\9exi65h42d-g2feuvjx8a.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\compressed\9ompnaoccb-g2feuvjx8a.gz
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\staticwebassets\msbuild.DEPI Graduation Project.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\staticwebassets\msbuild.DEPI Graduation Project.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\staticwebassets\msbuild.build.DEPI Graduation Project.props
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.DEPI Graduation Project.props
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.DEPI Graduation Project.props
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\DEPI Graduation Project.dll
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\refint\DEPI Graduation Project.dll
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\DEPI Graduation Project.pdb
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\DEPI Graduation Project.genruntimeconfig.cache
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\obj\Debug\net9.0\ref\DEPI Graduation Project.dll
