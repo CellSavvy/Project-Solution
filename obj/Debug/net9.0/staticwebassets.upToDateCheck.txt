@@ -10,6 +10,7 @@ C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Grad
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\js\scripts.js
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
@@ -40,6 +41,7 @@ C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Grad
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\jquery\LICENSE.txt
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\assets\favicon.ico
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\jquery\dist\jquery.min.js
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
@@ -51,6 +53,7 @@ C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Grad
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\jquery-validation\dist\jquery.validate.js
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\css\styles.css
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
@@ -60,8 +63,11 @@ C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Grad
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\jquery-validation\dist\additional-methods.js
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\assets\favicon.ico
 wwwroot\css\site.css
+wwwroot\css\styles.css
 wwwroot\favicon.ico
+wwwroot\js\scripts.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

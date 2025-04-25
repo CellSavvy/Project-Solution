@@ -5,12 +5,24 @@
       "PackagePath": "staticwebassets\\DEPI Graduation Project.g2feuvjx8a.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\favicon.ico"
+    },
+    {
       "Id": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
       "Id": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\js\\scripts.js"
     },
     {
       "Id": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\js\\site.js",

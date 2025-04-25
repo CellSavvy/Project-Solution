@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CA+dZxj3WRtCt9XA+LhbbuI2fbrJUG7EB3l1z3OESUk=",
+  "Hash": "j9Pj8QsSU8vuKhv8tPzPc3AQZ4yPt4XSLngo00SJ9Fk=",
   "Source": "DEPI Graduation Project",
   "BasePath": "_content/DEPI Graduation Project",
   "Mode": "Default",
@@ -267,6 +267,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\5d6glyiv3w-7950c2etpe.gz",
+      "SourceId": "DEPI Graduation Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DEPI Graduation Project",
+      "RelativePath": "js/scripts#[.{fingerprint=7950c2etpe}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\js\\scripts.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "cuoljr4b2m",
+      "Integrity": "/E8XiK8RIy3ZmcSeFuPJezDTXx0IFW/+xngN8iaSua0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\js\\scripts.js"
     },
     {
       "Identity": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\5md7y3fmuc-ee0r1s7dh0.gz",
@@ -773,12 +794,12 @@
       "OriginalItemSpec": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\jned8cspzn-b9sayid5wm.gz",
+      "Identity": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\jned8cspzn-8d6c04jo42.gz",
       "SourceId": "DEPI Graduation Project",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/DEPI Graduation Project",
-      "RelativePath": "css/site#[.{fingerprint=b9sayid5wm}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=8d6c04jo42}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -787,8 +808,8 @@
       "RelatedAsset": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "wf4wcyqcqt",
-      "Integrity": "fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=",
+      "Fingerprint": "ns1gf19vsp",
+      "Integrity": "F9DHoITvs7VMhojjIqhf8OwrjgZ+MXOcLSMfsWRR2CA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\css\\site.css"
@@ -939,6 +960,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\nm1gsqu5jd-devepoo3hg.gz",
+      "SourceId": "DEPI Graduation Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DEPI Graduation Project",
+      "RelativePath": "assets/favicon#[.{fingerprint=devepoo3hg}]?.ico.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\assets\\favicon.ico",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "j3fujmqth6",
+      "Integrity": "75JECphqLOYUqUSmszOMzYIQcdgDgtGzaeuEBWX8E50=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\assets\\favicon.ico"
     },
     {
       "Identity": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\nxgeczukdi-493y06b0oq.gz",
@@ -1172,6 +1214,27 @@
       "OriginalItemSpec": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
+      "Identity": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\sx1l0czhh9-050gf1li0j.gz",
+      "SourceId": "DEPI Graduation Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DEPI Graduation Project",
+      "RelativePath": "css/styles#[.{fingerprint=050gf1li0j}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\css\\styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "grqtai8pf6",
+      "Integrity": "vL4o7MHF6I0YjmoOe8w5x5X7ulDhqoikVBs1EFXr5Sg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\css\\styles.css"
+    },
+    {
       "Identity": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\t85qfkvx5x-pk9g2wxc8p.gz",
       "SourceId": "DEPI Graduation Project",
       "SourceType": "Discovered",
@@ -1403,6 +1466,27 @@
       "OriginalItemSpec": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DEPI Graduation Project.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\assets\\favicon.ico",
+      "SourceId": "DEPI Graduation Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\",
+      "BasePath": "_content/DEPI Graduation Project",
+      "RelativePath": "assets/favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "devepoo3hg",
+      "Integrity": "ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\favicon.ico"
+    },
+    {
       "Identity": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\css\\site.css",
       "SourceId": "DEPI Graduation Project",
       "SourceType": "Discovered",
@@ -1417,11 +1501,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "b9sayid5wm",
-      "Integrity": "j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=",
+      "Fingerprint": "8d6c04jo42",
+      "Integrity": "xJScYMa+7G61zlS6Jqgt7ZP3CkvRBlBRBQU6S6TO7RY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\css\\styles.css",
+      "SourceId": "DEPI Graduation Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\",
+      "BasePath": "_content/DEPI Graduation Project",
+      "RelativePath": "css/styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "050gf1li0j",
+      "Integrity": "TLhg5T7bwuGuuPHHrLtxGHT9a1GENI8pcIdRStzaPQ0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
       "Identity": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\favicon.ico",
@@ -1443,6 +1548,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\js\\scripts.js",
+      "SourceId": "DEPI Graduation Project",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\",
+      "BasePath": "_content/DEPI Graduation Project",
+      "RelativePath": "js/scripts#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7950c2etpe",
+      "Integrity": "ZfEVpnGr+TXr1LfZZrITWxGlhBLv4FhqV6hrt5xhoTE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\scripts.js"
     },
     {
       "Identity": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\js\\site.js",
@@ -2728,13 +2854,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.b9sayid5wm.css",
-      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\jned8cspzn-b9sayid5wm.gz",
+      "Route": "assets/favicon.devepoo3hg.ico",
+      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\nm1gsqu5jd-devepoo3hg.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003125000000"
+          "Quality": "0.000452284034"
         }
       ],
       "ResponseHeaders": [
@@ -2744,15 +2870,313 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "2210"
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"75JECphqLOYUqUSmszOMzYIQcdgDgtGzaeuEBWX8E50=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 21:00:31 GMT"
+          "Value": "Fri, 25 Apr 2025 14:39:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "devepoo3hg"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicon.devepoo3hg.ico",
+      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\assets\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23462"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 14:39:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "devepoo3hg"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicon.devepoo3hg.ico.gz",
+      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\nm1gsqu5jd-devepoo3hg.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2210"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"75JECphqLOYUqUSmszOMzYIQcdgDgtGzaeuEBWX8E50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 14:39:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "devepoo3hg"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/favicon.ico.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-75JECphqLOYUqUSmszOMzYIQcdgDgtGzaeuEBWX8E50="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicon.ico",
+      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\nm1gsqu5jd-devepoo3hg.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000452284034"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2210"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"75JECphqLOYUqUSmszOMzYIQcdgDgtGzaeuEBWX8E50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 14:39:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicon.ico",
+      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\assets\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23462"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 14:39:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ixBg8ZN2jFW8SN7ei6jam+bJP45tyulG428aiVa3Jps="
+        }
+      ]
+    },
+    {
+      "Route": "assets/favicon.ico.gz",
+      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\nm1gsqu5jd-devepoo3hg.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2210"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"75JECphqLOYUqUSmszOMzYIQcdgDgtGzaeuEBWX8E50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 14:39:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-75JECphqLOYUqUSmszOMzYIQcdgDgtGzaeuEBWX8E50="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.8d6c04jo42.css",
+      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\jned8cspzn-8d6c04jo42.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003039513678"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "328"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"F9DHoITvs7VMhojjIqhf8OwrjgZ+MXOcLSMfsWRR2CA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 15:27:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2772,13 +3196,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"xJScYMa+7G61zlS6Jqgt7ZP3CkvRBlBRBQU6S6TO7RY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "8d6c04jo42"
         },
         {
           "Name": "label",
@@ -2786,12 +3210,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-xJScYMa+7G61zlS6Jqgt7ZP3CkvRBlBRBQU6S6TO7RY="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css",
+      "Route": "css/site.8d6c04jo42.css",
       "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2801,7 +3225,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "671"
         },
         {
           "Name": "Content-Type",
@@ -2809,11 +3233,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"xJScYMa+7G61zlS6Jqgt7ZP3CkvRBlBRBQU6S6TO7RY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 21:00:31 GMT"
+          "Value": "Fri, 25 Apr 2025 15:27:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2823,7 +3247,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "8d6c04jo42"
         },
         {
           "Name": "label",
@@ -2831,13 +3255,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-xJScYMa+7G61zlS6Jqgt7ZP3CkvRBlBRBQU6S6TO7RY="
         }
       ]
     },
     {
-      "Route": "css/site.b9sayid5wm.css.gz",
-      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\jned8cspzn-b9sayid5wm.gz",
+      "Route": "css/site.8d6c04jo42.css.gz",
+      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\jned8cspzn-8d6c04jo42.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2846,7 +3270,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "328"
         },
         {
           "Name": "Content-Type",
@@ -2854,11 +3278,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"F9DHoITvs7VMhojjIqhf8OwrjgZ+MXOcLSMfsWRR2CA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 21:00:31 GMT"
+          "Value": "Fri, 25 Apr 2025 15:27:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2876,7 +3300,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b9sayid5wm"
+          "Value": "8d6c04jo42"
         },
         {
           "Name": "label",
@@ -2884,18 +3308,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
+          "Value": "sha256-F9DHoITvs7VMhojjIqhf8OwrjgZ+MXOcLSMfsWRR2CA="
         }
       ]
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\jned8cspzn-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\jned8cspzn-8d6c04jo42.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003125000000"
+          "Quality": "0.003039513678"
         }
       ],
       "ResponseHeaders": [
@@ -2905,15 +3329,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "328"
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"F9DHoITvs7VMhojjIqhf8OwrjgZ+MXOcLSMfsWRR2CA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 21:00:31 GMT"
+          "Value": "Fri, 25 Apr 2025 15:27:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2933,13 +3357,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "W/\"xJScYMa+7G61zlS6Jqgt7ZP3CkvRBlBRBQU6S6TO7RY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-xJScYMa+7G61zlS6Jqgt7ZP3CkvRBlBRBQU6S6TO7RY="
         }
       ]
     },
@@ -2954,7 +3378,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "667"
+          "Value": "671"
         },
         {
           "Name": "Content-Type",
@@ -2962,11 +3386,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg=\""
+          "Value": "\"xJScYMa+7G61zlS6Jqgt7ZP3CkvRBlBRBQU6S6TO7RY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 21:00:31 GMT"
+          "Value": "Fri, 25 Apr 2025 15:27:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2976,13 +3400,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j6fhJSuuyLpOSLuPJU0TsDV0iNjor5S3rDnvxJrt4bg="
+          "Value": "sha256-xJScYMa+7G61zlS6Jqgt7ZP3CkvRBlBRBQU6S6TO7RY="
         }
       ]
     },
     {
       "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\jned8cspzn-b9sayid5wm.gz",
+      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\jned8cspzn-8d6c04jo42.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2991,7 +3415,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319"
+          "Value": "328"
         },
         {
           "Name": "Content-Type",
@@ -2999,11 +3423,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I=\""
+          "Value": "\"F9DHoITvs7VMhojjIqhf8OwrjgZ+MXOcLSMfsWRR2CA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 21:00:31 GMT"
+          "Value": "Fri, 25 Apr 2025 15:27:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3021,7 +3445,305 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fNKkLSNFLZMVTc2zVrpMXQqOwPU3sU4GWcfEbCR2V1I="
+          "Value": "sha256-F9DHoITvs7VMhojjIqhf8OwrjgZ+MXOcLSMfsWRR2CA="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.050gf1li0j.css",
+      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\sx1l0czhh9-050gf1li0j.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000033435870"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29907"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vL4o7MHF6I0YjmoOe8w5x5X7ulDhqoikVBs1EFXr5Sg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 15:27:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"TLhg5T7bwuGuuPHHrLtxGHT9a1GENI8pcIdRStzaPQ0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "050gf1li0j"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TLhg5T7bwuGuuPHHrLtxGHT9a1GENI8pcIdRStzaPQ0="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.050gf1li0j.css",
+      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "236792"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TLhg5T7bwuGuuPHHrLtxGHT9a1GENI8pcIdRStzaPQ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 15:27:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "050gf1li0j"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TLhg5T7bwuGuuPHHrLtxGHT9a1GENI8pcIdRStzaPQ0="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.050gf1li0j.css.gz",
+      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\sx1l0czhh9-050gf1li0j.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vL4o7MHF6I0YjmoOe8w5x5X7ulDhqoikVBs1EFXr5Sg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 15:27:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "050gf1li0j"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vL4o7MHF6I0YjmoOe8w5x5X7ulDhqoikVBs1EFXr5Sg="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\sx1l0czhh9-050gf1li0j.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000033435870"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29907"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vL4o7MHF6I0YjmoOe8w5x5X7ulDhqoikVBs1EFXr5Sg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 15:27:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"TLhg5T7bwuGuuPHHrLtxGHT9a1GENI8pcIdRStzaPQ0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TLhg5T7bwuGuuPHHrLtxGHT9a1GENI8pcIdRStzaPQ0="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css",
+      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "236792"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TLhg5T7bwuGuuPHHrLtxGHT9a1GENI8pcIdRStzaPQ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 15:27:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TLhg5T7bwuGuuPHHrLtxGHT9a1GENI8pcIdRStzaPQ0="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css.gz",
+      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\sx1l0czhh9-050gf1li0j.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29907"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vL4o7MHF6I0YjmoOe8w5x5X7ulDhqoikVBs1EFXr5Sg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 15:27:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vL4o7MHF6I0YjmoOe8w5x5X7ulDhqoikVBs1EFXr5Sg="
         }
       ]
     },
@@ -3916,6 +4638,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8="
+        }
+      ]
+    },
+    {
+      "Route": "js/scripts.7950c2etpe.js",
+      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\5d6glyiv3w-7950c2etpe.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004291845494"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/E8XiK8RIy3ZmcSeFuPJezDTXx0IFW/+xngN8iaSua0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 14:39:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZfEVpnGr+TXr1LfZZrITWxGlhBLv4FhqV6hrt5xhoTE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7950c2etpe"
+        },
+        {
+          "Name": "label",
+          "Value": "js/scripts.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZfEVpnGr+TXr1LfZZrITWxGlhBLv4FhqV6hrt5xhoTE="
+        }
+      ]
+    },
+    {
+      "Route": "js/scripts.7950c2etpe.js",
+      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\js\\scripts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "330"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZfEVpnGr+TXr1LfZZrITWxGlhBLv4FhqV6hrt5xhoTE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 14:39:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7950c2etpe"
+        },
+        {
+          "Name": "label",
+          "Value": "js/scripts.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZfEVpnGr+TXr1LfZZrITWxGlhBLv4FhqV6hrt5xhoTE="
+        }
+      ]
+    },
+    {
+      "Route": "js/scripts.7950c2etpe.js.gz",
+      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\5d6glyiv3w-7950c2etpe.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/E8XiK8RIy3ZmcSeFuPJezDTXx0IFW/+xngN8iaSua0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 14:39:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7950c2etpe"
+        },
+        {
+          "Name": "label",
+          "Value": "js/scripts.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/E8XiK8RIy3ZmcSeFuPJezDTXx0IFW/+xngN8iaSua0="
+        }
+      ]
+    },
+    {
+      "Route": "js/scripts.js",
+      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\5d6glyiv3w-7950c2etpe.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004291845494"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/E8XiK8RIy3ZmcSeFuPJezDTXx0IFW/+xngN8iaSua0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 14:39:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ZfEVpnGr+TXr1LfZZrITWxGlhBLv4FhqV6hrt5xhoTE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZfEVpnGr+TXr1LfZZrITWxGlhBLv4FhqV6hrt5xhoTE="
+        }
+      ]
+    },
+    {
+      "Route": "js/scripts.js",
+      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\js\\scripts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "330"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZfEVpnGr+TXr1LfZZrITWxGlhBLv4FhqV6hrt5xhoTE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 14:39:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZfEVpnGr+TXr1LfZZrITWxGlhBLv4FhqV6hrt5xhoTE="
+        }
+      ]
+    },
+    {
+      "Route": "js/scripts.js.gz",
+      "AssetFile": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\compressed\\5d6glyiv3w-7950c2etpe.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/E8XiK8RIy3ZmcSeFuPJezDTXx0IFW/+xngN8iaSua0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 25 Apr 2025 14:39:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/E8XiK8RIy3ZmcSeFuPJezDTXx0IFW/+xngN8iaSua0="
         }
       ]
     },
