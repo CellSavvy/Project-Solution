@@ -1,0 +1,72 @@
+﻿@model IEnumerable<DEPI_Graduation_Project.Models.CartItem>
+
+<div class="cart_section py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="cart_container shadow p-4 rounded bg-white">
+                    <div class="cart_title mb-4 text-center">
+                        <h2 class="font-weight-bold">Shopping Cart</h2>
+                        <small class="text-muted">(@Model.Count() item(s) in your cart)</small>
+                    </div>
+
+                    <div class="cart_items">
+                        <ul class="cart_list list-unstyled">
+                            @foreach (var item in Model)
+                            {
+                                <li class="cart_item clearfix mb-4 p-3 border rounded d-flex flex-column flex-md-row align-items-center">
+                                    <div class="cart_item_image mb-3 mb-md-0 mr-md-4">
+                                        <img src="@item.Product.Image" alt="@item.Product.Name" style="max-width: 120px; border-radius: 10px;">
+                                    </div>
+
+                                    <div class="cart_item_info d-flex flex-wrap w-100 justify-content-between">
+                                        <div class="cart_info_col mb-2">
+                                            <div class="cart_item_title text-muted small">Name</div>
+                                            <div class="cart_item_text font-weight-bold">@item.Product.Name</div>
+                                        </div>
+
+                                        <div class="cart_info_col mb-2">
+                                            <div class="cart_item_title text-muted small">Quantity</div>
+                                            <div class="cart_item_text">@item.Quantity</div>
+                                        </div>
+
+                                        <div class="cart_info_col mb-2">
+                                            <div class="cart_item_title text-muted small">Price</div>
+                                            <div class="cart_item_text text-success">₹@item.Product.Price</div>
+                                        </div>
+
+                                        <div class="cart_info_col mb-2">
+                                            <div class="cart_item_title text-muted small">Total</div>
+                                            <div class="cart_item_text text-primary font-weight-bold">
+                                                ₹@(item.Product.Price * item.Quantity)
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+
+                    <hr class="my-4">
+
+                    <div class="order_total text-right mb-4">
+                        <h5 class="order_total_title">Order Total:</h5>
+                        <h4 class="order_total_amount text-primary font-weight-bold">
+                            ₹@Model.Sum(item => item.Product.Price * item.Quantity)
+                        </h4>
+                    </div>
+
+                    <div class="cart_buttons d-flex justify-content-between">
+                        <a href="/" class="btn btn-outline-secondary btn-lg">
+                            Continue Shopping
+                        </a>
+                        <a href="/Checkout" class="btn btn-primary btn-lg">
+                            Proceed to Checkout
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

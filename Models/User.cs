@@ -29,7 +29,7 @@ namespace DEPI_Graduation_Project.Models
             public UserRole Role { get; set; }
 
             public List<Order> Orders { get; set; }
-            //public List<CartItem> Cart { get; set; }
-            //public List<WishListItem> WishList { get; set; }
-        }
+            public List<CartItem> Cart { get; set; }
+            public List<WishListItem> WishList { get; set; }
+    }
     }

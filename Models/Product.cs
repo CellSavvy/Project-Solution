@@ -28,5 +28,8 @@ namespace DEPI_Graduation_Project.Models
         [Range(0, int.MaxValue, ErrorMessage = "Stock quantity must be a positive number.")]
         public int StockQuantity { get; set; }
 
+        [Required]
+        public string Image { get; set; }
+
     }
 }

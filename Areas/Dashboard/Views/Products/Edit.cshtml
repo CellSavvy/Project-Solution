@@ -1,0 +1,76 @@
+﻿@model DEPI_Graduation_Project.Models.Product
+
+@{
+    ViewData["Title"] = "Edit Product";
+}
+
+<div class="p-3">
+
+<h1 class="m-2">Edit Product</h1>
+
+<hr />
+<form asp-action="Edit" enctype="multipart/form-data" class="p-5 shadow rounded bg-light">
+    <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group mb-3">
+        <label asp-for="Name" class="form-label">Product Name</label>
+        <input asp-for="Name" class="form-control" placeholder="Enter product name" required />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Description" class="form-label">Description</label>
+    <textarea asp-for="Description"
+          class="form-control"
+          style="overflow:hidden; resize:none; height:auto;"
+          oninput="this.style.height='auto';this.style.height=this.scrollHeight + 'px';"
+          placeholder="Enter product description"
+          rows="4"
+          required>
+    </textarea>
+
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Category" class="form-label">Category</label>
+        <select asp-for="Category" class="form-control" required>
+            <option value="">Select Category</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Clothing">Clothing</option>
+            <option value="HomeGoods">Home Goods</option>
+        </select>
+        <span asp-validation-for="Category" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Price" class="form-label">Price</label>
+        <input asp-for="Price" class="form-control" placeholder="Enter price" step="0.01" required />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="StockQuantity" class="form-label">Stock Quantity</label>
+        <input asp-for="StockQuantity" class="form-control" placeholder="Enter stock quantity" required />
+        <span asp-validation-for="StockQuantity" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-4">
+        <label asp-for="Image" class="form-label">Image URL</label>
+        <input asp-for="Image" class="form-control" placeholder="Enter image URL" required />
+        <span asp-validation-for="Image" class="text-danger"></span>
+    </div>
+
+    <div class="form-group text-center">
+        <button type="submit" class="btn btn-primary btn-lg">Save Changes</button>
+        <a asp-action="Index" class="btn btn-secondary btn-lg ml-2">Cancel</a>
+    </div>
+</form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
