@@ -36,8 +36,6 @@ public class CartController : Controller
             cartItem.Quantity = qty;
             await _context.SaveChangesAsync();
         }
-
-        // إرجاع المعلومات المحدثة كـ JSON
         var updatedCartItems = await _context.CartItems
             .Where(c => c.UserId == currentUser.Id)
             .Include(c => c.Product)
@@ -45,9 +43,65 @@ public class CartController : Controller
 
         return Json(updatedCartItems);
     }
+    [HttpPost]
+    public async Task<IActionResult> AddToCart(int productId, int quantity)
+    {
+        // Get current user
+        var user = await _userManager.GetUserAsync(User);
+        if (user == null)
+        {
+            TempData["Error"] = "Please log in to add items to cart.";
+            return RedirectToAction("Login", "Account");
+        }
 
-    // GET: Cart/Index
-    public IActionResult Index()
+        // Check if product exists and has enough stock
+        var product = _context.Products.Find(productId);
+        if (product == null || product.StockQuantity < quantity)
+        {
+            TempData["Error"] = "Product is out of stock or insufficient quantity.";
+            return RedirectToAction("Index", "Product");
+        }
+
+        // Check if product is already in cart
+        var cartItem = _context.CartItems
+            .FirstOrDefault(c => c.ProductId == productId && c.UserId == user.Id);
+
+        if (cartItem != null)
+        {
+            // Update quantity if item exists
+            cartItem.Quantity += quantity;
+        }
+        else
+        {
+            // Add new cart item
+            cartItem = new CartItem
+            {
+                UserId = user.Id,
+                ProductId = productId,
+                Quantity = quantity
+            };
+            _context.CartItems.Add(cartItem);
+        }
+
+        // Save changes
+        await _context.SaveChangesAsync();
+
+        TempData["Success"] = "Product added to cart successfully.";
+        return RedirectToAction("Cart");
+    }
+
+    public IActionResult Cart()
+    {
+        var userId = _userManager.GetUserId(User);
+        var cartItems = _context.CartItems
+            .Where(c => c.UserId == userId)
+            .ToList();
+        return View(cartItems);
+    }
+
+
+// GET: Cart/Index
+public IActionResult Index()
     {
         var cartItems = _context.CartItems
             .Include(c => c.Product)

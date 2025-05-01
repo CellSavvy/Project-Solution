@@ -1,43 +1,51 @@
-﻿@model ECommerce.Models.Product
+﻿@using ECommerce.Models
+@model Product
 
 @{
     ViewData["Title"] = "Delete Product";
 }
 
 <div class="container my-5">
-    <h1 class="text-center m-4">Delete Product</h1>
-    <div class="p-4 shadow rounded bg-light mx-auto" style="max-width: 600px;">
-        <h3 class="text-center mb-4">Are you sure you want to delete this product?</h3>
+    <h1 class="text-center mb-3 text-danger">Delete Product</h1>
+    <h4 class="text-center text-muted mb-4">Are you sure you want to delete this product?</h4>
 
-        <h4 class="mb-3">Product Details</h4>
-        <hr />
-        <dl class="row">
-            <dt class="col-sm-4">Product Name</dt>
-            <dd class="col-sm-8">@Html.DisplayFor(model => model.Name)</dd>
+    <div class="card shadow p-4 mx-auto bg-light" style="max-width: 700px;">
+        <div class="row mb-3">
+            <div class="col-sm-4 font-weight-bold">Product Name:</div>
+            <div class="col-sm-8">@Model.Name</div>
+        </div>
 
-            <dt class="col-sm-4">Description</dt>
-            <dd class="col-sm-8">@Html.DisplayFor(model => model.Description)</dd>
+        <div class="row mb-3">
+            <div class="col-sm-4 font-weight-bold">Price:</div>
+            <div class="col-sm-8">$@Model.Price</div>
+        </div>
 
-            <dt class="col-sm-4">Category</dt>
-            <dd class="col-sm-8">@Html.DisplayFor(model => model.Category)</dd>
+        <div class="row mb-3">
+            <div class="col-sm-4 font-weight-bold">Description:</div>
+            <div class="col-sm-8">@Model.Description</div>
+        </div>
 
-            <dt class="col-sm-4">Price</dt>
-            <dd class="col-sm-8">@Html.DisplayFor(model => model.Price)</dd>
+        <div class="row mb-3">
+            <div class="col-sm-4 font-weight-bold">Stock Quantity:</div>
+            <div class="col-sm-8">@Model.StockQuantity</div>
+        </div>
 
-            <dt class="col-sm-4">Stock Quantity</dt>
-            <dd class="col-sm-8">@Html.DisplayFor(model => model.StockQuantity)</dd>
+        <div class="row mb-3">
+            <div class="col-sm-4 font-weight-bold">Category:</div>
+            <div class="col-sm-8">@Model.Category</div>
+        </div>
 
-            <dt class="col-sm-4">Image URL</dt>
-            <dd class="col-sm-8">@Html.DisplayFor(model => model.Image)</dd>
-        </dl>
-
-        <form asp-action="Delete" method="post">
-            <input type="hidden" asp-for="Id" />
-            <div class="form-group text-center">
-                <button type="submit" class="btn btn-danger btn-lg">Delete</button>
-                <a href="@Url.Action("Index")" class="btn btn-secondary btn-lg ml-2">Back to List</a>
+        <div class="row mb-4">
+            <div class="col-sm-4 font-weight-bold">Image:</div>
+            <div class="col-sm-8">
+                <img src="@Model.ImageUrl" alt="Product Image" class="img-thumbnail shadow-sm" style="max-width: 200px;" />
             </div>
+        </div>
+
+        <form asp-action="Delete" method="post" class="text-center">
+            <input type="hidden" asp-for="Id" />
+            <button type="submit" class="btn btn-danger btn-lg mx-2">Delete</button>
+            <a asp-action="Index" class="btn btn-secondary btn-lg mx-2">Cancel</a>
         </form>
     </div>
 </div>
-

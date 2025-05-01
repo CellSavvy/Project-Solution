@@ -1,37 +1,48 @@
-﻿@model ECommerce.Models.Product
+﻿@using ECommerce.Models
+@model Product
 
 @{
     ViewData["Title"] = "Product Details";
 }
 
 <div class="container my-5">
-    <h1 class="text-center m-4">Product Details</h1>
-    <div class="p-4 shadow rounded bg-light mx-auto" style="max-width: 800px;">
-        <h4 class="mb-3">Product Information</h4>
-        <hr />
+    <h1 class="text-center mb-4">Product Details</h1>
 
-        <dl class="row">
-            <dt class="col-sm-4">Product Name</dt>
-            <dd class="col-sm-8">@Html.DisplayFor(model => model.Name)</dd>
+    <div class="card shadow p-4 mx-auto bg-light" style="max-width: 700px;">
+        <div class="row mb-3">
+            <div class="col-sm-4 font-weight-bold">Product Name:</div>
+            <div class="col-sm-8">@Model.Name</div>
+        </div>
 
-            <dt class="col-sm-4">Description</dt>
-            <dd class="col-sm-8">@Html.DisplayFor(model => model.Description)</dd>
+        <div class="row mb-3">
+            <div class="col-sm-4 font-weight-bold">Price:</div>
+            <div class="col-sm-8">$@Model.Price</div>
+        </div>
 
-            <dt class="col-sm-4">Category</dt>
-            <dd class="col-sm-8">@Html.DisplayFor(model => model.Category)</dd>
+        <div class="row mb-3">
+            <div class="col-sm-4 font-weight-bold">Description:</div>
+            <div class="col-sm-8">@Model.Description</div>
+        </div>
 
-            <dt class="col-sm-4">Price</dt>
-            <dd class="col-sm-8">@Html.DisplayFor(model => model.Price)</dd>
+        <div class="row mb-3">
+            <div class="col-sm-4 font-weight-bold">Stock Quantity:</div>
+            <div class="col-sm-8">@Model.StockQuantity</div>
+        </div>
 
-            <dt class="col-sm-4">Stock Quantity</dt>
-            <dd class="col-sm-8">@Html.DisplayFor(model => model.StockQuantity)</dd>
+        <div class="row mb-3">
+            <div class="col-sm-4 font-weight-bold">Category:</div>
+            <div class="col-sm-8">@Model.Category</div>
+        </div>
 
-            <dt class="col-sm-4">Image URL</dt>
-            <dd class="col-sm-8">@Html.DisplayFor(model => model.Image)</dd>
-        </dl>
+        <div class="row mb-4">
+            <div class="col-sm-4 font-weight-bold">Product Image:</div>
+            <div class="col-sm-8">
+                <img src="@Model.ImageUrl" alt="Product Image" class="img-thumbnail shadow-sm" style="max-width: 200px;" />
+            </div>
+        </div>
 
-        <div class="text-center mt-4">
-            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning btn-lg mx-2">Edit</a>
+        <div class="text-center">
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary btn-lg mx-2">Edit</a>
             <a asp-action="Index" class="btn btn-secondary btn-lg mx-2">Back to List</a>
         </div>
     </div>

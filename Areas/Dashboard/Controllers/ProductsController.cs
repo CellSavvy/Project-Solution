@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using DEPI_Graduation_Project.Data;
@@ -21,21 +17,21 @@ namespace DEPI_Graduation_Project.Areas.Dashboard.Controllers
         }
 
         // GET: Dashboard/Products
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            return View(await _context.Products.ToListAsync());
+            var products = _context.Products.ToList();
+            return View(products);
         }
 
         // GET: Dashboard/Products/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public IActionResult Details(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var product = await _context.Products
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var product = _context.Products.Find(id);
             if (product == null)
             {
                 return NotFound();
@@ -51,30 +47,29 @@ namespace DEPI_Graduation_Project.Areas.Dashboard.Controllers
         }
 
         // POST: Dashboard/Products/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name,Description,Category,Price,StockQuantity,Image")] Product product)
+        public IActionResult Create(Product product)
         {
             if (ModelState.IsValid)
             {
+                product.Category = "Electronics"; // Set default category
                 _context.Add(product);
-                await _context.SaveChangesAsync();
+                _context.SaveChanges();
                 return RedirectToAction(nameof(Index));
             }
             return View(product);
         }
 
         // GET: Dashboard/Products/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public IActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var product = await _context.Products.FindAsync(id);
+            var product = _context.Products.Find(id);
             if (product == null)
             {
                 return NotFound();
@@ -83,11 +78,9 @@ namespace DEPI_Graduation_Project.Areas.Dashboard.Controllers
         }
 
         // POST: Dashboard/Products/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Description,Category,Price,StockQuantity,Image")] Product product)
+        public IActionResult Edit(int id, Product product)
         {
             if (id != product.Id)
             {
@@ -98,19 +91,17 @@ namespace DEPI_Graduation_Project.Areas.Dashboard.Controllers
             {
                 try
                 {
+                    product.Category = "Electronics"; // Ensure category remains Electronics
                     _context.Update(product);
-                    await _context.SaveChangesAsync();
+                    _context.SaveChanges();
                 }
-                catch (DbUpdateConcurrencyException)
+                catch
                 {
                     if (!ProductExists(product.Id))
                     {
                         return NotFound();
                     }
-                    else
-                    {
-                        throw;
-                    }
+                    throw;
                 }
                 return RedirectToAction(nameof(Index));
             }
@@ -118,15 +109,14 @@ namespace DEPI_Graduation_Project.Areas.Dashboard.Controllers
         }
 
         // GET: Dashboard/Products/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public IActionResult Delete(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var product = await _context.Products
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var product = _context.Products.Find(id);
             if (product == null)
             {
                 return NotFound();
@@ -138,15 +128,14 @@ namespace DEPI_Graduation_Project.Areas.Dashboard.Controllers
         // POST: Dashboard/Products/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public IActionResult DeleteConfirmed(int id)
         {
-            var product = await _context.Products.FindAsync(id);
+            var product = _context.Products.Find(id);
             if (product != null)
             {
                 _context.Products.Remove(product);
+                _context.SaveChanges();
             }
-
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 

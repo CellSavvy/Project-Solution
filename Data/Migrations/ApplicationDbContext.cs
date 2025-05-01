@@ -19,5 +19,6 @@ namespace DEPI_Graduation_Project.Data
         public DbSet<WishListItem> WishListItems { get; set; }
         public DbSet<Notification> Notifications { get; set; }
         public DbSet<Address> Addresses { get; set; }
+
     }
 }
