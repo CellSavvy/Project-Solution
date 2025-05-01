@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using ECommerce.Models;
 
 namespace DEPI_Graduation_Project.Models
 {
@@ -21,9 +22,9 @@ namespace DEPI_Graduation_Project.Models
 
             [Required]
             [MinLength(6)]
-            [RegularExpression(@"^(?=.[A-Z])(?=.\d)(?=.[!@#$%^&]).{6,}$",
-                ErrorMessage = "Password must be at least 6 characters long, contain an uppercase letter, a number, and a special character.")]
-            public string PasswordHash { get; set; }
+            [RegularExpression(@"^(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{6,}$",
+            ErrorMessage = "Password must be at least 6 characters long, contain an uppercase letter, a number, and a special character.")]
+        public string PasswordHash { get; set; }
 
             [Required]
             public UserRole Role { get; set; }

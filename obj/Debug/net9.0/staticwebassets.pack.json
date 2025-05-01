@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\DEPI Graduation Project.bundle.scp.css",
-      "PackagePath": "staticwebassets\\DEPI Graduation Project.8g6h1omeom.bundle.scp.css"
+      "PackagePath": "staticwebassets\\DEPI Graduation Project.cqd2zgkr4s.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\Dashboard\\css\\sb-admin-2.css",
@@ -7429,6 +7429,10 @@
       "PackagePath": "staticwebassets\\assets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\css\\CartStyle.css",
+      "PackagePath": "staticwebassets\\css\\CartStyle.css"
+    },
+    {
       "Id": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -7441,8 +7445,20 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\img\\horizontal.png",
+      "PackagePath": "staticwebassets\\img\\horizontal.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\img\\logo-transparent.png",
+      "PackagePath": "staticwebassets\\img\\logo-transparent.png"
+    },
+    {
       "Id": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\img\\logo.png",
       "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\img\\story.png",
+      "PackagePath": "staticwebassets\\img\\story.png"
     },
     {
       "Id": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\js\\scripts.js",
@@ -7643,6 +7659,14 @@
     {
       "Id": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
       "Id": "C:\\Users\\hp\\Desktop\\DEPI\\Technical\\Graduation Project\\Project Solution\\DEPI Graduation Project\\wwwroot\\lib\\jquery-validation\\LICENSE.md",

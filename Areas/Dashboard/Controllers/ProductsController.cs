@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using DEPI_Graduation_Project.Data;
-using DEPI_Graduation_Project.Models;
+using ECommerce.Models;
 
 namespace DEPI_Graduation_Project.Areas.Dashboard.Controllers
 {
@@ -18,31 +18,6 @@ namespace DEPI_Graduation_Project.Areas.Dashboard.Controllers
         public ProductsController(ApplicationDbContext context)
         {
             _context = context;
-        }
-        public IActionResult SeedProducts()
-        {
-            var brands = new[] { "Samsung", "iPhone", "Redmi", "Oppo" };
-            var random = new Random();
-            var products = new List<Product>();
-
-            for (int i = 0; i < 200; i++)
-            {
-                var brand = brands[i % brands.Length];
-                products.Add(new Product
-                {
-                    Name = $"{brand} Model {i + 1}",
-                    Description = $"{brand} high performance smartphone.",
-                    Category = "Electronics",
-                    Price = random.Next(300, 1500),
-                    StockQuantity = random.Next(5, 100),
-                    Image = "https://via.placeholder.com/300x400.png?text=" + Uri.EscapeDataString(brand + "+Model+" + (i + 1))
-                });
-            }
-
-            _context.Products.AddRange(products);
-            _context.SaveChanges();
-
-            return View(products);
         }
 
         // GET: Dashboard/Products

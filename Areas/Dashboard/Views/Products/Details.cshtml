@@ -1,54 +1,38 @@
-﻿@model DEPI_Graduation_Project.Models.Product
+﻿@model ECommerce.Models.Product
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Product Details";
 }
 
+<div class="container my-5">
+    <h1 class="text-center m-4">Product Details</h1>
+    <div class="p-4 shadow rounded bg-light mx-auto" style="max-width: 800px;">
+        <h4 class="mb-3">Product Information</h4>
+        <hr />
 
-<div class="p-3">
-    <h1>Product Details</h1>
-    <hr />
-    <form class="p-5 shadow rounded bg-light">
-        <div class="form-group">
-            <label asp-for="Name" class="control-label">Product Name</label>
-            <input asp-for="Name" class="form-control" readonly />
-        </div>
+        <dl class="row">
+            <dt class="col-sm-4">Product Name</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Name)</dd>
 
-        <div class="form-group">
-            <label asp-for="Description" class="control-label">Description</label>
-            <textarea class="form-control"
-                      style="overflow:hidden; resize:none; height:auto;"
-                      oninput="this.style.height='auto';this.style.height=this.scrollHeight + 'px';"
-                      placeholder="Enter product description"
-                      rows="4"
-                      required
-                      readonly
-                asp-for="Description" class="form-control" rows="4"></textarea>
-        </div>
+            <dt class="col-sm-4">Description</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Description)</dd>
 
-        <div class="form-group">
-            <label asp-for="Category" class="control-label">Category</label>
-            <input asp-for="Category" class="form-control" readonly />
-        </div>
+            <dt class="col-sm-4">Category</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Category)</dd>
 
-        <div class="form-group">
-            <label asp-for="Price" class="control-label">Price</label>
-            <input asp-for="Price" class="form-control" readonly />
-        </div>
+            <dt class="col-sm-4">Price</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Price)</dd>
 
-        <div class="form-group">
-            <label asp-for="StockQuantity" class="control-label">Stock Quantity</label>
-            <input asp-for="StockQuantity" class="form-control" readonly />
-        </div>
+            <dt class="col-sm-4">Stock Quantity</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.StockQuantity)</dd>
 
-        <div class="form-group">
-            <label asp-for="Image" class="control-label">Image URL</label>
-            <input asp-for="Image" class="form-control" readonly />
-        </div>
+            <dt class="col-sm-4">Image URL</dt>
+            <dd class="col-sm-8">@Html.DisplayFor(model => model.Image)</dd>
+        </dl>
 
-        <div class="form-group text-center">
-            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary btn-lg">Edit</a>
-            <a asp-action="Index" class="btn btn-secondary btn-lg ml-2">Back to List</a>
+        <div class="text-center mt-4">
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning btn-lg mx-2">Edit</a>
+            <a asp-action="Index" class="btn btn-secondary btn-lg mx-2">Back to List</a>
         </div>
-    </form>
+    </div>
 </div>

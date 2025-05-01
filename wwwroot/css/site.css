@@ -1,8 +1,14 @@
-
 @media (min-width: 768px) {
-    html {
-        font-size: 16px;
-    }
+  html {
+    font-size: 16px;
+  }
+}
+.logo-img {
+    width: 300px;
+    height: 105px;
+}
+.dashboard-logo-img{
+    width:50px;
 }
 
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
@@ -11,129 +17,10 @@
 
 html {
     position: relative;
-    font-size: 14px;
     height: 100vh;
+    font-size: 14px;
 }
 
 body {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
-
-.container {
-    margin-top: 30px;
-}
-
-.table-responsive {
-    margin-top: 20px;
-}
-
-.table th, .table td {
-    text-align: center;
-}
-
-.table th {
-    background-color: #f8f9fa;
-}
-
-table td img {
-    max-width: 100px;
-    height: auto;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.mb-4 {
-    margin-bottom: 30px;
-}
-
-.btn-sm {
-    font-size: 12px;
-    padding: 5px 10px;
-}
-
-.logo-img {
-    width: 200px;
-}
-/* Creative Card Design */
-.card {
-    border: none;
-    border-radius: 15px;
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-    .card:hover {
-        transform: translateY(-10px);
-        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
-    }
-
-/* Image Style */
-.card-img-container {
-    position: relative;
-    padding-top: 100%;
-    border-radius: 10px;
-    overflow: hidden;
-    background: #f7f7f7;
-}
-
-.card-img-top {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 80%;
-    object-fit: cover;
-    width: 100%;
-}
-
-/* Body Content */
-.card-body {
-    background-color: #fff;
-    padding: 20px;
-    text-align: center;
-    position: relative;
-}
-
-    .card-body h5 {
-        font-size: 1.25rem;
-        font-weight: bold;
-        color: #333;
-    }
-
-    .card-body p {
-        font-size: 1rem;
-        color: #666;
-        line-height: 1.5;
-    }
-
-    .card-body .card-text {
-        font-style: italic;
-    }
-
-    .card-body .price {
-        font-size: 1.25rem;
-        font-weight: bold;
-        color: #27ae60;
-    }
-
-    /* Border & Separator */
-    .card-body p {
-        border-bottom: 2px solid #ddd;
-        padding-bottom: 15px;
-        margin-bottom: 15px;
-    }
-
-    .card-body .btn {
-        margin-top: 15px;
-        border-radius: 25px;
-        background-color: #007bff;
-        color: white;
-        padding: 10px 20px;
-        transition: background-color 0.3s;
-    }
-
-        .card-body .btn:hover {
-            background-color: #0056b3;
-        }

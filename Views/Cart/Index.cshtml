@@ -1,72 +1,163 @@
-﻿@model IEnumerable<DEPI_Graduation_Project.Models.CartItem>
+﻿
+@section Styles
+{
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+}
 
-<div class="cart_section py-5">
+<section class="bg-light my-5">
     <div class="container">
         <div class="row">
-            <div class="col-lg-10 offset-lg-1">
-                <div class="cart_container shadow p-4 rounded bg-white">
-                    <div class="cart_title mb-4 text-center">
-                        <h2 class="font-weight-bold">Shopping Cart</h2>
-                        <small class="text-muted">(@Model.Count() item(s) in your cart)</small>
-                    </div>
+            <!-- Cart -->
+            <div class="col-lg-9">
+                <div class="card border shadow-0">
+                    <div class="m-4">
+                        <h4 class="card-title mb-4">Your shopping cart</h4>
 
-                    <div class="cart_items">
-                        <ul class="cart_list list-unstyled">
-                            @foreach (var item in Model)
-                            {
-                                <li class="cart_item clearfix mb-4 p-3 border rounded d-flex flex-column flex-md-row align-items-center">
-                                    <div class="cart_item_image mb-3 mb-md-0 mr-md-4">
-                                        <img src="@item.Product.Image" alt="@item.Product.Name" style="max-width: 120px; border-radius: 10px;">
-                                    </div>
-
-                                    <div class="cart_item_info d-flex flex-wrap w-100 justify-content-between">
-                                        <div class="cart_info_col mb-2">
-                                            <div class="cart_item_title text-muted small">Name</div>
-                                            <div class="cart_item_text font-weight-bold">@item.Product.Name</div>
-                                        </div>
-
-                                        <div class="cart_info_col mb-2">
-                                            <div class="cart_item_title text-muted small">Quantity</div>
-                                            <div class="cart_item_text">@item.Quantity</div>
-                                        </div>
-
-                                        <div class="cart_info_col mb-2">
-                                            <div class="cart_item_title text-muted small">Price</div>
-                                            <div class="cart_item_text text-success">₹@item.Product.Price</div>
-                                        </div>
-
-                                        <div class="cart_info_col mb-2">
-                                            <div class="cart_item_title text-muted small">Total</div>
-                                            <div class="cart_item_text text-primary font-weight-bold">
-                                                ₹@(item.Product.Price * item.Quantity)
+                        @foreach (var cartItem in Model)
+                        {
+                            <div class="row gy-3 mb-4" id="cart-item-@cartItem.ProductId">
+                                <div class="col-lg-5">
+                                    <div class="me-lg-5">
+                                        <div class="d-flex">
+                                            <img src="@cartItem.Product.Image"
+                                                 class="border rounded me-3" style="width: 96px; height: 96px;">
+                                            <div>
+                                                <a href="#" class="nav-link">@cartItem.Product.Name</a>
                                             </div>
                                         </div>
                                     </div>
-                                </li>
-                            }
-                        </ul>
+                                </div>
+
+                                <div class="col-lg-2 col-sm-6 col-6 d-flex flex-row flex-lg-column flex-xl-row text-nowrap">
+                                    <div>
+                                        @{
+                                            var selectedValue = cartItem.Quantity;
+                                            var items = Enumerable.Range(1, 10).Select(i => new SelectListItem
+                                            {
+                                                Value = i.ToString(),
+                                                Text = i.ToString(),
+                                                Selected = (i == selectedValue)
+                                            }).ToList();
+                                        }
+
+                                        <select id="product-@cartItem.ProductId" 
+                                                data-productId="@cartItem.ProductId" 
+                                                class="form-select me-4" 
+                                                style="width: 100px;" 
+                                                onchange="submitCart(@cartItem.ProductId)"
+                                                asp-items="items">
+                                        </select>
+                                    </div>
+
+                                    <div>
+                                        <span class="h6" id="price-@cartItem.ProductId">
+                                            $@cartItem.Product.Price
+                                        </span>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg col-sm-6 d-flex justify-content-sm-center justify-content-md-start justify-content-lg-center justify-content-xl-end mb-2">
+                                    <div class="float-md-end">
+                                        <a href="#" class="btn btn-light border px-2 icon-hover-primary">
+                                            <i class="fas fa-heart fa-lg px-1 text-secondary"></i>
+                                        </a>
+                                        <a asp-controller="Cart" asp-action="Remove" asp-route-id="@cartItem.Id" 
+                                           class="btn btn-light border text-danger icon-hover-danger">
+                                           Remove
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+
                     </div>
 
-                    <hr class="my-4">
-
-                    <div class="order_total text-right mb-4">
-                        <h5 class="order_total_title">Order Total:</h5>
-                        <h4 class="order_total_amount text-primary font-weight-bold">
-                            ₹@Model.Sum(item => item.Product.Price * item.Quantity)
-                        </h4>
+                    <div class="border-top pt-4 mx-4 mb-4">
+                        <p><i class="fas fa-truck text-muted fa-lg"></i> Free Delivery within 1-2 weeks</p>
+                        <p class="text-muted">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est reprehenderit illo,
+                            corporis, fuga eius soluta perspiciatis culpa provident ipsum consequatur aperiam
+                            numquam quisquam voluptatum consequuntur possimus magnam dolorum, voluptatibus aliquid.
+                        </p>
                     </div>
-
-                    <div class="cart_buttons d-flex justify-content-between">
-                        <a href="/" class="btn btn-outline-secondary btn-lg">
-                            Continue Shopping
-                        </a>
-                        <a href="/Checkout" class="btn btn-primary btn-lg">
-                            Proceed to Checkout
-                        </a>
-                    </div>
-
                 </div>
             </div>
+            <!-- Cart End -->
+
+            <!-- Summary -->
+            <div class="col-lg-3">
+                <div class="card mb-3 border shadow-0">
+                    <div class="card-body">
+                        <form>
+                            <div class="form-group">
+                                <label class="form-label">Have Coupon?</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control border" name="coupon" placeholder="Coupon code">
+                                    <button class="btn btn-light border">Apply</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="card shadow-0 border">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-2">Total price</p>
+                            <p class="mb-2">$@ViewBag.TotalCost</p>
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-2">Discount</p>
+                            <p class="mb-2 text-success">-$283.00</p>
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-2">TAX</p>
+                            <p class="mb-2">$14.00</p>
+                        </div>
+
+                        <div class="d-flex justify-content-between">
+                            <p class="mb-2 fw-bold">Total price</p>
+                            <p class="mb-2 fw-bold">$@ViewBag.TotalCost</p>
+                        </div>
+
+                        <div class="mt-3">
+                            <a asp-controller="CheckOut" asp-action="Index" class="btn btn-success w-100 shadow-0 mb-2">
+                                Make Purchase
+                            </a>
+                            <a asp-controller="Home" asp-action="Index" class="btn btn-light w-100 border">
+                                Back to shop
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Summary End -->
         </div>
     </div>
-</div>
+</section>
+
+@section Scripts
+{
+    <script>
+        function submitCart(productId) {
+            const selectElement = document.getElementById(`product-${productId}`);
+            const qty = selectElement.value;
+            const productID = selectElement.getAttribute('data-productId');
+
+            $.ajax({
+                type: 'POST',
+                url: '/Cart/UpdateQty',
+                data: {
+                    productId: productID,
+                    qty: qty
+                },
+                success: function (data) {
+                    const cartItem = data.find(item => item.productId == productID);
+                    document.getElementById(`price-${productId}`).innerText = '$' + cartItem.product.price;
+                }
+            });
+        }
+    </script>
+}

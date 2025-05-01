@@ -1,24 +1,27 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace DEPI_Graduation_Project.Models
+namespace ECommerce.Models
 {
     public class OrderItem
     {
         [Key]
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "Order ID is required.")]
+        [Required]
         public int OrderId { get; set; }
         public Order Order { get; set; }
 
-        [Required(ErrorMessage = "Product ID is required.")]
+        [Required]
         public int ProductId { get; set; }
         public Product Product { get; set; }
 
-        [Required(ErrorMessage = "Quantity is required."), Range(1, int.MaxValue, ErrorMessage = "Quantity must be at least 1.")]
+        [Required]
+        [Range(1, int.MaxValue)]
         public int Quantity { get; set; }
 
-        [Required(ErrorMessage = "Unit price is required."), Range(0.01, 100000, ErrorMessage = "Unit price must be between 0.01 and 100000.")]
+        [Required]
+        [Range(0.01, 100000)]
         public decimal UnitPrice { get; set; }
+
     }
 }

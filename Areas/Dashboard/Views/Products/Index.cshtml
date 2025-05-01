@@ -1,155 +1,85 @@
-﻿@model IEnumerable<DEPI_Graduation_Project.Models.Product>
+﻿@model IEnumerable<ECommerce.Models.Product>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Product List";
 }
 
-<!-- Page Heading -->
-<div class="container mt-4">
-    <h1 class="h3 mb-2 text-gray-800">Products List</h1>
-    <p class="mb-4">
-        Use the search options below to filter products by name, price, or brand.
-    </p>
-
-    <!-- Search Filters (Dropdown + Input) -->
-    <div class="d-flex justify-content-between mb-3">
-        <div class="form-group col-md-3">
-            <input type="text" id="searchName" class="form-control" placeholder="Search by Name" onkeyup="filterProducts()" />
-        </div>
-
-        <!-- Price Filter -->
-        <div class="form-group col-md-3">
-            <select class="form-control" id="priceFilter" onchange="filterProducts()">
-                <option value="">Filter by Price</option>
-                <option value="under50">Under $50 <i class="fas fa-dollar-sign"></i></option>
-                <option value="50to100">$50 - $100 <i class="fas fa-dollar-sign"></i></option>
-                <option value="100to200">$100 - $200 <i class="fas fa-dollar-sign"></i></option>
-                <option value="over200">Over $200 <i class="fas fa-dollar-sign"></i></option>
-            </select>
-        </div>
-
-        <!-- Type Filter (Brand) -->
-        <div class="form-group col-md-3">
-            <select class="form-control" id="typeFilter" onchange="filterProducts()">
-                <option value="">Filter by Brand</option>
-                <option value="samsung">Samsung</option>
-                <option value="redmi">Redmi</option>
-                <option value="oppo">Oppo</option>
-                <option value="iphone">iPhone</option>
-                <!-- Add more brands as needed -->
-            </select>
-        </div>
+<div class="container my-5">
+    <h1 class="text-center m-4">Product List</h1>
+    <div class="text-center mb-4">
+        <a asp-action="Create" class="btn btn-success btn-lg">Create New Product</a>
     </div>
 
-    <!-- DataTales Example -->
-    <div class="card shadow mb-4">
-        <div class="card-header py-3">
-            <h2 class="p-2 font-weight-bold text-primary">Products</h2>
-            <div class="d-flex justify-content-end">
-                <a class="btn btn-primary" asp-action="Create">Add Product</a>
-            </div>
-        </div>
-        <div class="card-body">
-            <div class="table-responsive">
-                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                    <!-- Products Table -->
-                    <thead>
-                        <tr>
-                            <th>Image</th>
-                            <th>Name</th>
-                            <th>Description</th>
-                            <th>Category</th>
-                            <th>Price</th>
-                            <th>Stock Quantity</th>
-                            <th>Actions</th>
-                        </tr>
-                    </thead>
-                    <tbody id="productTableBody">
-                        @foreach (var item in Model)
-                        {
-                            <tr>
-                                <td>
-                                    <!-- Display Image if exists -->
-                                    @if (!string.IsNullOrEmpty(item.Image))
-                                    {
-                                        <img src="@item.Image" alt="@item.Name" style="max-width: 100px; height: auto;" />
-                                    }
-                                </td>
-                                <td class="text-center align-middle">@Html.DisplayFor(modelItem => item.Name)</td>
-
-                                <td class="text-center align-middle">@Html.DisplayFor(modelItem => item.Description)</td>
-                                <td class="text-center align-middle">@Html.DisplayFor(modelItem => item.Category)</td>
-                                <td class="p-2 text-center align-middle">
-                                    <span class="fs-6" style="font-size: 1rem; font-weight: bold;">$ @Html.DisplayFor(modelItem => item.Price)</span>
-                                </td>
-                                <td class="text-center align-middle">@Html.DisplayFor(modelItem => item.StockQuantity)</td>
-                                <td class="text-center align-middle">
-                                    <div class="d-flex flex-column align-content-center">
-                                        <div class="p-2">
-                                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Edit</a>
-                                        </div>
-                                        <div class="p-2">
-                                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Details</a>
-                                        </div>
-                                        <div class="p-2">
-                                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
-                        }
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
+    <table class="table table-bordered table-hover custom-table">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Name)</th>
+                <th>@Html.DisplayNameFor(model => model.Description)</th>
+                <th>@Html.DisplayNameFor(model => model.Category)</th>
+                <th>@Html.DisplayNameFor(model => model.Price)</th>
+                <th>@Html.DisplayNameFor(model => model.StockQuantity)</th>
+                <th>@Html.DisplayNameFor(model => model.Image)</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Category)</td>
+                    <td>$@Html.DisplayFor(modelItem => item.Price)</td>
+                    <td>@Html.DisplayFor(modelItem => item.StockQuantity)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Image)</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm action-btn">Edit</a> 
+                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm action-btn">Details</a> 
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm action-btn">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
 </div>
 
-<script>
-    function filterProducts() {
-        var nameFilter = document.getElementById("searchName").value.toLowerCase();
-        var priceFilter = document.getElementById("priceFilter").value;
-        var typeFilter = document.getElementById("typeFilter").value.toLowerCase(); // Get selected brand
-        var table, tr, td, i, txtValue;
-        table = document.getElementById("dataTable");
-        tr = table.getElementsByTagName("tr");
-
-        // Loop through all table rows, and hide those that don't match the search
-        for (i = 1; i < tr.length; i++) { // Skip header row
-            td = tr[i].getElementsByTagName("td");
-            let matchFound = true;
-
-            // Filter by Name
-            if (nameFilter && !td[0].textContent.toLowerCase().includes(nameFilter)) {
-                matchFound = false;
-            }
-
-            // Filter by Price
-            if (priceFilter) {
-                let price = parseFloat(td[3].textContent.replace(/[^\d.-]/g, '')); // Get price value
-                if (priceFilter === "under50" && price >= 50) {
-                    matchFound = false;
-                } else if (priceFilter === "50to100" && (price < 50 || price > 100)) {
-                    matchFound = false;
-                } else if (priceFilter === "100to200" && (price < 100 || price > 200)) {
-                    matchFound = false;
-                } else if (priceFilter === "over200" && price <= 200) {
-                    matchFound = false;
-                }
-            }
-
-            // Filter by Type (Brand) based on Name
-            if (typeFilter && !td[0].textContent.toLowerCase().includes(typeFilter)) {
-                matchFound = false;
-            }
-
-            if (matchFound) {
-                tr[i].style.display = "";
-            } else {
-                tr[i].style.display = "none";
-            }
-        }
+<style>
+    .custom-table th {
+        background-color: #4e73dfe6; 
+        color: white; 
+        font-weight: bold; 
+        text-align: center; 
     }
-</script>
 
+    .custom-table td {
+        background-color: #f2f2f2; 
+        color: #333; 
+        text-align: center; 
+        padding: 10px; 
+        border-color: rgba(0, 0, 0, 0.1); 
+    }
 
+    .custom-table th, .custom-table td {
+        border: 1px solid #ddd;
+    }
+
+    .custom-table tbody tr:hover {
+        background-color: #e1e1e1; 
+    }
+
+    .action-btn {
+        text-decoration: none; 
+        color: white; 
+        transition: color 0.3s ease; 
+    }
+
+        .action-btn:hover {
+            color: black; 
+            text-decoration: none; 
+        }
+
+    .custom-table {
+        border-radius: 8px; /
+        overflow: hidden; 
+    }
+</style>

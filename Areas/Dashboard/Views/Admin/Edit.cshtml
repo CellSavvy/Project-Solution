@@ -1,0 +1,51 @@
+﻿@model DEPI_Graduation_Project.Models.User
+
+@{
+    ViewData["Title"] = "Edit User";
+}
+
+<div class="container my-5">
+    <h1 class="text-center m-4">Edit User</h1>
+    <form asp-action="Edit" method="post" class="p-4 shadow rounded bg-light mx-auto" style="max-width: 600px;">
+        <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+        <div class="form-group mb-3">
+            <label asp-for="Name" class="control-label">Full Name</label>
+            <input asp-for="Name" class="form-control" placeholder="Enter your name" required />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="Email" class="control-label">Email</label>
+            <input asp-for="Email" class="form-control" placeholder="Enter your email" required />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="PasswordHash" class="control-label">Password</label>
+            <input asp-for="PasswordHash" type="password" class="form-control" placeholder="Enter your password" />
+            <span asp-validation-for="PasswordHash" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="Role" class="control-label">Role</label>
+            <select asp-for="Role" class="form-control" required>
+                <option value="Client">Client</option>
+                <option value="Admin">Admin</option>
+                <option value="Moderator">Moderator</option>
+            </select>
+            <span asp-validation-for="Role" class="text-danger"></span>
+        </div>
+
+        <div class="form-group text-center mb-3">
+            <button type="submit" class="btn btn-primary btn-lg">Save Changes</button>
+            <a href="@Url.Action("Index")" class="btn btn-secondary btn-lg ml-2">Cancel</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

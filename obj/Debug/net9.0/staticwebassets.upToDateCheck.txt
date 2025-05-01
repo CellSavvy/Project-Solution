@@ -25,6 +25,7 @@ C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Grad
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\Dashboard\vendor\fontawesome-free\svgs\solid\unlock-alt.svg
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\Dashboard\vendor\fontawesome-free\svgs\brands\jira.svg
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\Dashboard\vendor\fontawesome-free\svgs\solid\magic.svg
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\Dashboard\vendor\fontawesome-free\svgs\brands\earlybirds.svg
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\Dashboard\vendor\fontawesome-free\svgs\solid\grin-tongue-wink.svg
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\Dashboard\vendor\fontawesome-free\svgs\regular\folder-open.svg
@@ -461,6 +462,7 @@ C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Grad
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\Dashboard\vendor\fontawesome-free\svgs\brands\android.svg
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\Dashboard\vendor\fontawesome-free\svgs\solid\toilet-paper.svg
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\Dashboard\vendor\fontawesome-free\svgs\solid\hand-point-left.svg
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\css\CartStyle.css
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\Dashboard\vendor\fontawesome-free\svgs\regular\hand-peace.svg
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\Dashboard\vendor\fontawesome-free\svgs\solid\hands-helping.svg
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
@@ -1240,6 +1242,7 @@ C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Grad
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\Dashboard\vendor\fontawesome-free\svgs\solid\bus-alt.svg
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\Dashboard\vendor\fontawesome-free\svgs\regular\grin-tears.svg
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\Dashboard\vendor\fontawesome-free\svgs\regular\caret-square-right.svg
+C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\Dashboard\vendor\fontawesome-free\svgs\solid\fighter-jet.svg
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\Dashboard\vendor\fontawesome-free\svgs\solid\comment-dots.svg
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\Dashboard\vendor\fontawesome-free\svgs\brands\facebook-square.svg
@@ -1754,6 +1757,7 @@ C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Grad
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\Dashboard\vendor\fontawesome-free\svgs\solid\snowplow.svg
 C:\Users\hp\Desktop\DEPI\Technical\Graduation Project\Project Solution\DEPI Graduation Project\wwwroot\Dashboard\vendor\fontawesome-free\svgs\solid\arrow-circle-down.svg
 wwwroot\assets\favicon.ico
+wwwroot\css\CartStyle.css
 wwwroot\css\site.css
 wwwroot\css\styles.css
 wwwroot\Dashboard\css\sb-admin-2.css
@@ -3612,7 +3616,10 @@ wwwroot\Dashboard\vendor\jquery-easing\jquery.easing.compatibility.js
 wwwroot\Dashboard\vendor\jquery-easing\jquery.easing.js
 wwwroot\Dashboard\vendor\jquery-easing\jquery.easing.min.js
 wwwroot\favicon.ico
+wwwroot\img\horizontal.png
 wwwroot\img\logo.png
+wwwroot\img\logo-transparent.png
+wwwroot\img\story.png
 wwwroot\js\scripts.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
@@ -3674,4 +3681,6 @@ wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
 wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt

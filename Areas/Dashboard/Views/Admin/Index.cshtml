@@ -1,0 +1,78 @@
+﻿@model IEnumerable<ECommerce.Models.ApplicationUser>
+
+@{
+    ViewData["Title"] = "User List";
+}
+
+<div class="container my-5">
+    <h1 class="text-center m-4">Users List</h1>
+    <div class="text-center mb-4">
+        <a asp-action="Create" class="btn btn-success btn-lg">Create New User</a>
+    </div>
+
+    <table class="table table-bordered table-hover custom-table">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.UserName)</th>
+                <th>@Html.DisplayNameFor(model => model.FirstName)</th>
+                <th>@Html.DisplayNameFor(model => model.LastName)</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => user.UserName)</td>
+                    <td>@Html.DisplayFor(modelItem => user.FirstName)</td>
+                    <td>@Html.DisplayFor(modelItem => user.LastName)</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@user.Id" class="btn btn-warning btn-sm action-btn">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@user.Id" class="btn btn-danger btn-sm action-btn">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    .custom-table th {
+        background-color: #4e73dfe6;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .custom-table td {
+        background-color: #f2f2f2;
+        color: #333;
+        text-align: center;
+        padding: 10px;
+        border-color: rgba(0, 0, 0, 0.1);
+    }
+
+    .custom-table th, .custom-table td {
+        border: 1px solid #ddd;
+    }
+
+    .custom-table tbody tr:hover {
+        background-color: #e1e1e1;
+    }
+
+    .action-btn {
+        text-decoration: none;
+        color: white;
+        transition: color 0.3s ease;
+    }
+
+        .action-btn:hover {
+            color: black;
+            text-decoration: none;
+        }
+
+    .custom-table {
+        border-radius: 8px;
+        overflow: hidden;
+    }
+</style>
