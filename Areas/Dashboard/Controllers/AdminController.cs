@@ -1,7 +1,10 @@
 ﻿using ECommerce.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace DEPI_Graduation_Project.Areas.Dashboard.Controllers
 {
@@ -20,13 +23,14 @@ namespace DEPI_Graduation_Project.Areas.Dashboard.Controllers
         // عرض قائمة العملاء
         public async Task<IActionResult> Index()
         {
-            var users = _userManager.Users; // جلب جميع المستخدمين
-            return View(await users.ToListAsync());
+            var users = await _userManager.Users.ToListAsync();
+            return View(users);
         }
 
         // عرض صفحة إضافة مستخدم جديد
         public IActionResult Create()
         {
+            ViewData["Roles"] = new SelectList(_roleManager.Roles, "Name", "Name");
             return View();
         }
 
@@ -37,22 +41,26 @@ namespace DEPI_Graduation_Project.Areas.Dashboard.Controllers
         {
             if (ModelState.IsValid)
             {
-                // تعيين الـ Role للمستخدم
+                // التحقق من وجود الـ Role
+                var role = model.Role ?? "Client";
+                var roleExists = await _roleManager.RoleExistsAsync(role);
+                if (!roleExists)
+                {
+                    await _roleManager.CreateAsync(new IdentityRole(role));
+                }
+
                 var user = new ApplicationUser
                 {
                     UserName = model.UserName,
                     FirstName = model.FirstName,
                     LastName = model.LastName,
-                    Email = model.Email,
-                    // تعيين الـ Role هنا
-                    Role = model.Role ?? "Client" // أو تعيين قيمة افتراضية "Client" إذا لم يتم تحديد Role
+                    Email = model.Email
                 };
 
-                var result = await _userManager.CreateAsync(user, "DefaultPassword123!"); // كلمة مرور افتراضية
+                var result = await _userManager.CreateAsync(user, "DefaultPassword123!");
                 if (result.Succeeded)
                 {
-                    // إضافة الـ Role بعد إنشاء المستخدم
-                    await _userManager.AddToRoleAsync(user, model.Role ?? "Client"); // أو تعيين القيمة الافتراضية هنا
+                    await _userManager.AddToRoleAsync(user, role);
                     return RedirectToAction(nameof(Index));
                 }
 
@@ -61,24 +69,39 @@ namespace DEPI_Graduation_Project.Areas.Dashboard.Controllers
                     ModelState.AddModelError(string.Empty, error.Description);
                 }
             }
+            ViewData["Roles"] = new SelectList(_roleManager.Roles, "Name", "Name", model.Role);
             return View(model);
         }
 
         // عرض صفحة تعديل مستخدم
         public async Task<IActionResult> Edit(string id)
         {
+            if (string.IsNullOrEmpty(id))
+            {
+                return NotFound();
+            }
+
             var user = await _userManager.FindByIdAsync(id);
             if (user == null)
             {
                 return NotFound();
             }
+
+            // جلب الـ Role الحالي للمستخدم
+            var userRoles = await _userManager.GetRolesAsync(user);
+            var currentRole = userRoles.FirstOrDefault() ?? "Client";
+
+            // تمرير قائمة الأدوار وتحديد الـ Role الحالي
+            ViewData["Roles"] = new SelectList(_roleManager.Roles, "Name", "Name", currentRole);
+            ViewData["CurrentRole"] = currentRole;
+
             return View(user);
         }
 
         // تعديل مستخدم
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, ApplicationUser model)
+        public async Task<IActionResult> Edit(string id, ApplicationUser model, string Role)
         {
             if (id != model.Id)
             {
@@ -93,6 +116,7 @@ namespace DEPI_Graduation_Project.Areas.Dashboard.Controllers
                     return NotFound();
                 }
 
+                user.UserName = model.UserName;
                 user.FirstName = model.FirstName;
                 user.LastName = model.LastName;
                 user.Email = model.Email;
@@ -100,17 +124,17 @@ namespace DEPI_Graduation_Project.Areas.Dashboard.Controllers
                 var result = await _userManager.UpdateAsync(user);
                 if (result.Succeeded)
                 {
-                    // التحقق من وجود Role في قاعدة البيانات
-                    if (!await _roleManager.RoleExistsAsync(model.Role))
-                    {
-                        ModelState.AddModelError("Role", "Invalid role.");
-                        return View(model);
-                    }
-
-                    // تحديث الـ Role هنا
+                    // تحديث الـ Role
                     var currentRoles = await _userManager.GetRolesAsync(user);
                     await _userManager.RemoveFromRolesAsync(user, currentRoles);
-                    await _userManager.AddToRoleAsync(user, model.Role);
+                    if (!string.IsNullOrEmpty(Role) && await _roleManager.RoleExistsAsync(Role))
+                    {
+                        await _userManager.AddToRoleAsync(user, Role);
+                    }
+                    else
+                    {
+                        await _userManager.AddToRoleAsync(user, "Client"); // Default role
+                    }
                     return RedirectToAction(nameof(Index));
                 }
 
@@ -119,12 +143,21 @@ namespace DEPI_Graduation_Project.Areas.Dashboard.Controllers
                     ModelState.AddModelError(string.Empty, error.Description);
                 }
             }
+
+            // إعادة تعيين قائمة الأدوار في حالة الفشل
+            ViewData["Roles"] = new SelectList(_roleManager.Roles, "Name", "Name", Role);
+            ViewData["CurrentRole"] = Role;
             return View(model);
         }
 
         // حذف مستخدم
         public async Task<IActionResult> Delete(string id)
         {
+            if (string.IsNullOrEmpty(id))
+            {
+                return NotFound();
+            }
+
             var user = await _userManager.FindByIdAsync(id);
             if (user == null)
             {
@@ -137,7 +170,7 @@ namespace DEPI_Graduation_Project.Areas.Dashboard.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            return View();
+            return View(user);
         }
     }
 }

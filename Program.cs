@@ -50,7 +50,7 @@ app.MapControllerRoute(
 
 app.MapControllerRoute(
     name: "admin",
-    pattern: "Dashboard/{area:exists}/{controller=Admin}/{action=Index}/{id?}",
+    pattern: "Dashboard/{controller=Admin}/{action=Index}/{id?}",
     defaults: new { area = "Dashboard", controller = "Admin", action = "Index" }
 );
 

@@ -1,4 +1,5 @@
-﻿@model DEPI_Graduation_Project.Models.User
+﻿@using ECommerce.Models
+@model ApplicationUser
 
 @{
     ViewData["Title"] = "Edit User";
@@ -9,10 +10,24 @@
     <form asp-action="Edit" method="post" class="p-4 shadow rounded bg-light mx-auto" style="max-width: 600px;">
         <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
 
+        <input type="hidden" asp-for="Id" />
+
         <div class="form-group mb-3">
-            <label asp-for="Name" class="control-label">Full Name</label>
-            <input asp-for="Name" class="form-control" placeholder="Enter your name" required />
-            <span asp-validation-for="Name" class="text-danger"></span>
+            <label asp-for="UserName" class="control-label">User Name</label>
+            <input asp-for="UserName" class="form-control" placeholder="Enter username" required />
+            <span asp-validation-for="UserName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="FirstName" class="control-label">First Name</label>
+            <input asp-for="FirstName" class="form-control" placeholder="Enter first name" required />
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label asp-for="LastName" class="control-label">Last Name</label>
+            <input asp-for="LastName" class="form-control" placeholder="Enter last name" required />
+            <span asp-validation-for="LastName" class="text-danger"></span>
         </div>
 
         <div class="form-group mb-3">
@@ -22,24 +37,19 @@
         </div>
 
         <div class="form-group mb-3">
-            <label asp-for="PasswordHash" class="control-label">Password</label>
-            <input asp-for="PasswordHash" type="password" class="form-control" placeholder="Enter your password" />
-            <span asp-validation-for="PasswordHash" class="text-danger"></span>
-        </div>
-
-        <div class="form-group mb-3">
-            <label asp-for="Role" class="control-label">Role</label>
-            <select asp-for="Role" class="form-control" required>
-                <option value="Client">Client</option>
-                <option value="Admin">Admin</option>
-                <option value="Moderator">Moderator</option>
+            <label class="control-label">Role</label>
+            <select name="Role" class="form-control" required>
+                @foreach (var role in (SelectList)ViewData["Roles"])
+                {
+                    <option value="@role.Value" selected="@(role.Value == ViewData["CurrentRole"])">@role.Text</option>
+                }
             </select>
-            <span asp-validation-for="Role" class="text-danger"></span>
+            <span class="text-danger" asp-validation-for="Role"></span>
         </div>
 
         <div class="form-group text-center mb-3">
             <button type="submit" class="btn btn-primary btn-lg">Save Changes</button>
-            <a href="@Url.Action("Index")" class="btn btn-secondary btn-lg ml-2">Cancel</a>
+            <a asp-action="Index" class="btn btn-secondary btn-lg ml-2">Cancel</a>
         </div>
     </form>
 </div>
